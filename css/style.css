@@ -38,9 +38,10 @@ h1{
 }
 
 .presen{
-    width: 30rem ;
     color: white;
     font-size: x-large;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .contacto{
@@ -51,4 +52,18 @@ h1{
     font-size: x-large;
     margin: 30px;
     
+}
+
+.fotos{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgspace{
+    gap: 10px;
+}
+
+.space{
+    gap: 10px;
 }
